@@ -1,6 +1,6 @@
 #!/bin/bash
 port="-P"
-if [ $1 == '-p' ]; then
+if [ "$1" = "-p" ]; then
   if [ -z $2 ]; then
     echo "Missing port number"
     exit 1
